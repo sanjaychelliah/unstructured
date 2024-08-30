@@ -64,7 +64,7 @@ grpcio==1.64.1
     #   grpcio-status
 grpcio-status==1.62.2
     # via google-api-core
-huggingface-hub==0.23.4
+#huggingface-hub==0.23.4
     # via
     #   timm
     #   tokenizers
@@ -117,11 +117,11 @@ numpy==1.26.4
     #   transformers
 omegaconf==2.3.0
     # via effdet
-onnx==1.16.1
+#onnx==1.16.1
     # via
     #   -r ./extra-pdf-image.in
     #   unstructured-inference
-onnxruntime==1.18.0
+#onnxruntime==1.18.0
     # via unstructured-inference
 opencv-python==4.8.0.76
     # via
@@ -202,7 +202,7 @@ pypdf==4.2.0
     # via -r ./extra-pdf-image.in
 pypdfium2==4.30.0
     # via pdfplumber
-pytesseract==0.3.10
+#pytesseract==0.3.10
     # via -r ./extra-pdf-image.in
 python-dateutil==2.9.0.post0
     # via
@@ -258,14 +258,14 @@ timm==1.0.7
     #   unstructured-inference
 tokenizers==0.19.1
     # via transformers
-torch==2.3.1
+#torch==2.3.1
     # via
     #   -c ././deps/constraints.txt
     #   effdet
     #   timm
     #   torchvision
     #   unstructured-inference
-torchvision==0.18.1
+#torchvision==0.18.1
     # via
     #   effdet
     #   timm
@@ -275,7 +275,7 @@ tqdm==4.66.4
     #   huggingface-hub
     #   iopath
     #   transformers
-transformers==4.41.2
+#transformers==4.41.2
     # via unstructured-inference
 typing-extensions==4.12.2
     # via
@@ -288,7 +288,7 @@ tzdata==2024.1
     # via pandas
 unstructured-inference==0.7.36
     # via -r ./extra-pdf-image.in
-unstructured-pytesseract==0.3.12
+#unstructured-pytesseract==0.3.12
     # via
     #   -c ././deps/constraints.txt
     #   -r ./extra-pdf-image.in
