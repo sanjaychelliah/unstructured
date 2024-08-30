@@ -124,6 +124,7 @@ def partition_pdf(
     form_extraction_skip_tables: bool = True,
     **kwargs: Any,
 ) -> list[Element]:
+    raise Exception("La Laaaaa Laaaanddddddd")
     """Parses a pdf document into a list of interpreted elements.
     Parameters
     ----------
