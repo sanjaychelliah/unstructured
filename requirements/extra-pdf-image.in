@@ -6,6 +6,7 @@ pdfminer.six
 pikepdf
 pillow_heif
 pypdf
+opencv-python!=4.7.0.68
 # Do not move to constraints.in, otherwise unstructured-inference will not be upgraded
 # when unstructured library is.
 #unstructured-inference==0.7.36
