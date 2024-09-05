@@ -13,6 +13,7 @@ from unstructured.partition.utils.constants import (
     OCR_AGENT_PADDLE_OLD,
     OCR_AGENT_TESSERACT,
     OCR_AGENT_TESSERACT_OLD,
+    OCR_AGENT_CLARIFAI
 )
 
 if TYPE_CHECKING:
@@ -30,7 +31,7 @@ class OCRAgent(ABC):
 
         The OCR package used by the agent is determined by the `OCR_AGENT` environment variable.
         """
-        ocr_agent_cls_qname = cls._get_ocr_agent_cls_qname()
+        ocr_agent_cls_qname = OCR_AGENT_CLARIFAI
         try:
             return cls.get_instance(ocr_agent_cls_qname)
         except (ImportError, AttributeError):
